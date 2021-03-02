@@ -22,6 +22,18 @@ class Gym
       l.lifter
     end
   end
+
+  def lifter_name
+    self.lifters.map {|lifter|lifter.name }
+  end
+
+  def lift_total
+    var = self.lifters.map {|lifter|lifter.lift_total}
+    var.sum 
+  end
+
+
 end
 
 puts "gym"
+

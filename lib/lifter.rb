@@ -38,9 +38,6 @@ class Lifter
     Membership.new(cost, self, gym)
   end
 
-    
-
-
 end
 
 puts "lifter"

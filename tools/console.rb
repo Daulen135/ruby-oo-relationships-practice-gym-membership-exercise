@@ -27,3 +27,4 @@ m8 = Membership.new(652, triston, lft)
 binding.pry
 
 puts "Gains!"
+
