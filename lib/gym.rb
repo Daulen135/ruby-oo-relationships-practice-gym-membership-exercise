@@ -19,6 +19,9 @@ class Gym
 
   def lifters
     self.membership.map do|l|
-      l.
+      l.lifter
+    end
+  end
 end
 
+puts "gym"
